@@ -1,0 +1,15 @@
+[package]
+name = "RNgl_"
+version = "0.1.0"
+authors = ["LanLan"]
+build = "build/build.rs"
+
+[dependencies]
+glfw = "*"
+lazy_static = "*"
+crossbeam = "*"
+num = "*"
+cgmath ="*"
+libc = "*"
+[build-dependencies]
+gl_generator = "*"
