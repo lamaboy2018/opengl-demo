@@ -1,0 +1,14 @@
+[package]
+name = "glText"
+version = "0.1.0"
+authors = ["zbin"]
+build = "build/build.rs"
+
+[dependencies]
+glfw = "*"
+cgmath = "*"
+glm ="*"
+#llvm = "*"
+
+[build-dependencies]
+gl_generator = "*"
